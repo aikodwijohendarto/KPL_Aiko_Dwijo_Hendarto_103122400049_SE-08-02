@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pengkonversi Gaya Teks</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+<main class="wrapper">
+
+<header>
+<h1>Pengkonversi Gaya Teks</h1>
+<p>Alat ini bisa mengubah teks menjadi huruf besar, huruf kecil, dan paragraf.</p>
+</header>
+
+<section class="editor-area">
+
+<label for="editor">Masukkan teks:</label>
+
+<textarea
+id="editor"
+class="text-box"
+rows="10"
+cols="60"
+placeholder="Kata-kata..."
+></textarea>
+
+</section>
+
+<section class="statistic">
+
+<p>
+Huruf: <span id="jumlah">0</span>,
+huruf besar: <span id="besar">0</span>,
+huruf kecil: <span id="kecil">0</span>
+</p>
+
+</section>
+
+<section class="actions">
+
+<button id="btn-upper">Besarkan</button>
+<button id="btn-lower">Kecilkan</button>
+<button id="btn-sentence">Paragrafkan</button>
+
+</section>
+
+</main>
+
+<script src="index.js"></script>
+
+</body>
+</html>
