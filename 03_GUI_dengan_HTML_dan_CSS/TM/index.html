@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemeriksa Teks</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div id="container">
+    <h1>Pemeriksa Teks</h1>
+    <p>Masukkan teks untuk melihat jumlah huruf serta mengubah format teks.</p>
+
+    <label for="editor-kecil">Masukkan teks:</label>
+    <textarea class="kotak-input" id="editor-kecil" rows="10" cols="60"></textarea>
+
+    <p>
+        Huruf: <span id="hf">0</span>,
+        huruf besar: <span id="hb">0</span>,
+        huruf kecil: <span id="hk">0</span>
+    </p>
+
+    <button id="huruf-besar">Huruf Besar</button>
+    <button id="huruf-kecil">Huruf Kecil</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
