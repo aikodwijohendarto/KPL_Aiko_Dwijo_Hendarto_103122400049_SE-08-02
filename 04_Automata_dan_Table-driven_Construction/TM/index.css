@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: monospace;
+}
+
+#container {
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+}
+
+button {
+    margin: 5px;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #171b25;
+    color: #ebecf7;
+}
+
+.dark-mode .editor-kecil {
+    background-color: #2e3443;
+}
+
+.dark-mode .editor-kecil button {
+    background-color: #29ddcc;
+}
+
+.sepia-mode {
+    background-color: #F4ECD8;
+    color: #5B4636;
+}
+
+.sepia-mode .editor-kecil {
+    background-color: white;
+}
+
+.sepia-mode .editor-kecil button {
+    background-color: #29ddcc;
+}

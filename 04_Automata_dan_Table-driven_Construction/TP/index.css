@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: monospace;
+}
+
+#container {
+    padding: 30px;
+}
+
+.kotak-input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.mode-gelap {
+    background-color: #171b25;
+    color: #ebecf7;
+}
+
+.mode-gelap .editor-kecil {
+    background-color: #2e3443;
+}
+
+.mode-gelap .editor-kecil button {
+    background-color: #29ddcc;
+    color: inherit;
+    border: none;
+}
