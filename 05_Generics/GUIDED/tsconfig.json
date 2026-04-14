@@ -1,0 +1,11 @@
+{
+    //Visit https://aka.ms/tsconfig to read more about this file
+    //npx tsc --init
+    "compilerOptions": {
+        "strict": true, //biar berkas JS patuh TS
+        "allowJs": true, //izinkan JS
+        "checkJs": true, //sama kaya atas
+        "noEmit": true //biar gak ada TS
+    },
+    "include": ["./**/*.js"]
+}
